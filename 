@@ -1,0 +1,27 @@
+git status コマンドを追加
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   fiest.txt
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/fiest.txt b/fiest.txt
+index 7991fd6..50b5ba6 100644
+--- a/fiest.txt
++++ b/fiest.txt
+@@ -2,4 +2,5 @@ Git
+ ???{?I?ȃ??[?N?t???[???w?т܂??B
+ ?Egit add
+ ?Egit commit
+-?Egit remove
+\ No newline at end of file
++?Egit remove
++?Egit status
+\ No newline at end of file
